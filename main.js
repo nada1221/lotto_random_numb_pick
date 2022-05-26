@@ -1,5 +1,8 @@
 function generate(size, lowest, highest) {
+//generate(6, 1, 44)
+
 	let numbers = [];
+    
 	for(let i = 0; i < size; i++) {
 		let add = true;
 		let randomNumber = Math.floor(Math.random() * highest) + 1;
